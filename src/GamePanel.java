@@ -14,7 +14,7 @@ public class GamePanel extends JPanel implements ActionListener {
     static final int DELAY = 75;
     final int X[]= new int [GAME_UNITS];
     final int Y[]= new int [GAME_UNITS];
-    int bodyParts =5; // 6 body parts of the Snake
+    int bodyParts =5; // 6 body parts of the snake
     int applesEaten;
     int applesX;
     int applesY;
