@@ -89,6 +89,7 @@ public class GamePanel extends JPanel implements ActionListener {
         }
 
     }
+    // define a Applle größe und Läge unit-size
     public void newApple(){
         applesX = random.nextInt((int)(SCREEN_WIDTH/UNIT_SIZE))*UNIT_SIZE;
         applesY = random.nextInt((int)(SCREEN_HEIGHT/UNIT_SIZE))*UNIT_SIZE;
